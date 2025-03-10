@@ -420,7 +420,7 @@ class IdnRuleUtil {
      * Finds the ManagedAttribute description by provided sourceId/name/value/type.
      *
      * @param sourceId The sourceId used to query the ManagedAttribute.
-     * @param name The name of the attribute used to query the ManagedAttribute.
+     * @param name The name of the attribute used to query the ManagedAttribute from the account schema.
      * @param value The value of the attribute used to query the ManagedAttribute.
      * @param type The type of attribute used to query the ManagedAttribute (see enum ManagedAttribute.Type).
      *             Defaults to Entitlement (if null provided).
@@ -435,7 +435,7 @@ class IdnRuleUtil {
     * Finds the ManagedAttribute by sourceId/name/value/type and returns its details in ManagedAttributeDetails model.
     *
     * @param sourceId The sourceId used to query the ManagedAttribute.
-    * @param name The name of the attribute used to query the ManagedAttribute.
+    * @param name The name of the attribute used to query the ManagedAttribute from the account schema.
     * @param value The value of the attribute used to query the ManagedAttribute.
     * @param type The type of attribute used to query the ManagedAttribute (see enum ManagedAttribute.Type).
     * Defaults to Entitlement (if null provided).
